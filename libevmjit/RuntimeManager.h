@@ -68,6 +68,8 @@ private:
 	llvm::Value* m_gasPtr = nullptr;
 	llvm::Value* m_memPtr = nullptr;
 	llvm::Value* m_envPtr = nullptr;
+	llvm::Value* m_returnBufDataPtr = nullptr;
+	llvm::Value* m_returnBufSizePtr = nullptr;
 
 	llvm::Value* m_txCtxLoaded = nullptr;
 	llvm::Value* m_txCtx = nullptr;
